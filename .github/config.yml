@@ -1,0 +1,40 @@
+# Comment to be posted to on first time issues
+newIssueWelcomeComment: |
+ Hey, this is not the right place to open an issue.
+ 
+ **Are you looking for beginner-friendly issues? Check out [this](https://github.com/Lazeeez/HacktoberFest-21) repo.**
+ 
+ 📢 Spread the word about [@Lazeeez/HacktoberFest-21](https://github.com/Lazeeez/HacktoberFest-21) repo across your social media channels to help get others involved! 
+ 
+ [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Lazeeez)
+ 
+ **Check out few other repos below** 🚀
+ 
+ **Show some ❤️**
+    - Consider leaving a ⭐ [here](https://github.com/Lazeeez/HacktoberFest-21).
+    - Follow @Lazeeez for more updates.
+ 
+ #### Say Hi on [Twitter](https://twitter.com/Lajat05)! 👋
+  
+# Comment to be posted to on PRs from first time contributors in your repository
+newPRWelcomeComment: |
+ Hey, this is not the right place to raise a pull request! 🤗
+ 
+ **Are you looking for beginner-friendly issues? Check out [this](https://github.com/Lazeeez/HacktoberFest-21/) repo.**
+  
+ 📢 Spread the word about [@Lazeeez/HacktoberFest-21](https://github.com/Lazeeez/HacktoberFest-21) repo across your social media channels to help get others involved!
+ 
+ **Check out few other repos below** 🚀
+
+ **Show some ❤️**
+    - Consider leaving a ⭐ [here](https://github.com/Lazeeez/HacktoberFest-21).
+    - Follow @Lazeeez for more updates.
+    
+ #### Say Hi on [Twitter](https://twitter.com/Lajat05)! 👋
+  
+ Wishing you a great Hacktoberfest 2021
+ 
+# Comment to be posted to on pull requests merged by a first time user
+firstPRMergeComment: |
+ Congrats on merging your first pull request! 🙌🎉⚡️
+ Show some love by starring a few of my [repositories](https://github.com/vinitshahdeo?tab=repositories).
