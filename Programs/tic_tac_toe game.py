@@ -1,4 +1,6 @@
 # Tic Tac Toe code
+# Simple project to make CPU vs CPU game with random selection & see which cpu is lucky.
+# CPU vs CPU game mode. Start it enjoy watching them play.
 
 import numpy as np
 import random
