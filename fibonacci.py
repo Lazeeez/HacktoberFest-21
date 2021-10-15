@@ -1,5 +1,6 @@
 # Taking 1st two fibonacci numbers as 0 and 1
- 
+
+
 def fibonacci(n):
     a = 0
     b = 1
@@ -15,7 +16,8 @@ def fibonacci(n):
             a = b
             b = c
         return b
- 
+
+
 # Driver Program
- 
+
 print(fibonacci(9))

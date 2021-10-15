@@ -1,6 +1,7 @@
 # Python3 program to implement
 # optimized delete in BST.
 
+
 class Node:
 
     # Constructor to create a new node
@@ -125,8 +126,6 @@ root = insert(root, 80)
 # print("Inorder traversal of the modified tree")
 # inorder(root)
 #
-
-
 
 
 print(root.left.key)

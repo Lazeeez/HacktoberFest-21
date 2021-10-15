@@ -3,12 +3,12 @@
 
 lst = []
 
-for i in map(int,input().split()):
+for i in map(int, input().split()):
     lst.append(i)
 
-P=max(lst)
-Q=min(lst)
+P = max(lst)
+Q = min(lst)
 
-print("Max No in List is : ",P)
-print("Min No in List is : ",Q)
-print("Max+Min: ",P+Q)
+print("Max No in List is : ", P)
+print("Min No in List is : ", Q)
+print("Max+Min: ", P + Q)
