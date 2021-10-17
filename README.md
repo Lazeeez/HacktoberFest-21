@@ -21,7 +21,14 @@ All you need to know is a programming language! Voila, you're just a step away f
 - Feel free to [raise a PR](https://github.com/Lazeeez/HacktoberFest-21/pulls) to add beginner-friendly issues (& repos).
     - Kindly follow [this format](https://github.com/Lazeeez/HacktoberFest-21/blob/main/.github/PULL_REQUEST_TEMPLATE/ADD_NEW_ISSUE.md) to raise the PR.
 
-As a mentor, I will:
+
+## Need help
+
+Are you a beginner looking for help in kickstarting  your open-source journey? Start a discussion here.
+
+- Additionally, you can reach out to me to get 1:1 help to resolve your queries.
+
+### As a mentor, I will:
 
 🙏  **resolve beginner's doubts**
 
@@ -30,12 +37,6 @@ As a mentor, I will:
 💬 **engage with other community members**.
 
 🤝 **welcome and help others to finish the Hacktoberfest challenge**.
-
-## Need help
-
-Are you a beginner looking for help in kickstarting  your open-source journey? Start a discussion here.
-
-- Additionally, you can reach out to me to get 1:1 help to resolve your queries.
 
 
 ## What is Hacktoberfest?
