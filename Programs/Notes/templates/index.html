@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .head {
+        display: block;
+    }
+    
+    h1 {
+        width: 307px;
+        margin: 0 auto;
+        font-size: 66px;
+    }
+    
+    .contanier form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 31px;
+        width: 93%;
+        height: 80%;
+    }
+    
+    textarea {
+        width: 779px;
+        height: 200px;
+        font-size: 27px;
+        font-weight: bold;
+        border: 20px soild black;
+        /* color: red; */
+        border-radius: 14px;
+        border: 5px solid red;
+    }
+    
+    textarea:hover {
+        width: 779px;
+        height: 200px;
+        font-size: 27px;
+        font-weight: bold;
+        border: 20px soild black;
+        /* color: red; */
+        border-radius: 14px;
+        border: 5px solid red;
+    }
+    
+    button {
+        width: 57px;
+        height: 57px;
+        border-radius: 65px;
+        margin: 8px;
+        margin-left: 706px;
+    }
+    
+    button .w {
+        width: 45px;
+        height: 5px;
+        background: black;
+        margin-left: 4px;
+    }
+    
+    button .h {
+        width: 4px;
+        height: 20px;
+        background: black;
+        /* position: relative; */
+        margin-left: 24px;
+    }
+    
+    button:hover {
+        cursor: pointer;
+    }
+    
+    #cross {
+        transform: rotate(45deg);
+        /* margin: 0; */
+    }
+</style>
+
+<body>
+    <div class="head">
+        <h1>My Notes</h1>
+    </div>
+    <ul>
+        {% for i in range(n) %} {%- if i==0 -%}
+        <li>
+            <div class="contanier">
+                <form action="/add" method="POST">
+                    Note {{n-i}}: <textarea name="note" id="main">{{title[0]}}</textarea>
+                    <div class="btn">
+                        <div style="width: 100%;">
+                            <button type="submit">
+    
+                                <div class="h"></div>
+                                <div class="w"></div>
+                                <div class="h"></div>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </li>
+        {% endif %} {%- if i>0 -%}
+        <li>
+            <div class="contanier">
+                <form action="/delet" method="POST">
+                    Note {{n-i}}: <textarea name="note" id="main">{{title[n-i]}}</textarea>
+                    <div class="btn">
+                        <div style="width: 100%;">
+                            <button type="submit" id="cross">
+    
+                                <div class="h"></div>
+                                <div class="w"></div>
+                                <div class="h"></div>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </li>
+    </ul>
+    {% endif %} {% endfor %}
+
+</body>
+
+</html>
